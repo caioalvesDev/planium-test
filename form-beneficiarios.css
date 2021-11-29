@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background-color: rgb(31, 31, 31);
+  color: #fff;
+}
+* {
+  font-family: "Helvetica";
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .form .beneficiarios {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .form .beneficiario-container {
+  display: flex;
+  flex-direction: column;
+  border-left: 8px solid #ffc700;
+  padding: 20px;
+  gap: 20px;
+}
+.container .form .beneficiario-container .beneficiario-container-row {
+  display: flex;
+  flex-direction: row;
+}
+.container .form .beneficiario-container .beneficiario-container-row label {
+  flex-basis: 200px;
+  flex-grow: 1;
+  font-weight: 600;
+}
+.container .form .beneficiario-container .beneficiario-container-row input {
+  flex-basis: 300px;
+  flex-grow: 1;
+  background-color: #c5c5c5;
+  border-width: 0;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.container .form .add-button-container {
+  display: flex;
+  flex-direction: row;
+}
+.container .form .add-button-container .add-button {
+  border: none;
+  padding: 15px 20px;
+  background-color: #ffc700;
+  color: rgb(58, 54, 0);
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.container .form .submit-button {
+  align-self: flex-start;
+  border: none;
+  padding: 15px 20px;
+  background-color: #0059e7;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.container .form input,
+.container .form label {
+  padding: 15px;
+}
